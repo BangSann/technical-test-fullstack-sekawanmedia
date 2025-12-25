@@ -103,3 +103,22 @@ http://127.0.0.1:8000
 ```
 
 ---
+
+## Default Users (Seeder)
+
+Berikut adalah akun default yang tersedia setelah menjalankan seeder:
+
+| No | Name        | Email                  | Password         | Role ID | Region ID |
+|----|------------|------------------------|------------------|---------|-----------|
+| 1  | Admin       | admin@gmail.com        | admin12345       | 1       | 1         |
+| 2  | Approval 1  | approval_1@gmail.com   | approval12345    | 2       | 1         |
+| 3  | Approval 2  | approval_2@gmail.com   | approval12345    | 2      | 1         |
+
+### Keterangan Role
+- **Role ID 1** : Admin  
+- **Role ID 2** : Approval  
+
+> ⚠️ **Catatan:**  
+> Password di atas adalah password awal dari seeder. Pada implementasi Laravel, password akan otomatis di-*hash* menggunakan `bcrypt` atau `Hash::make()`.
+
+
