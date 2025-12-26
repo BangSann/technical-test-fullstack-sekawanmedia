@@ -107,28 +107,28 @@ class DatabaseSeeder extends Seeder
                 'type' => 'umum',
                 'ownership' => 'milik',
                 'region_id' => 1,
-                'status' => 'Active',
+                'status' => 'tersedia',
             ],
             [
                 'plate_number' => 'B 5678 DEF',
                 'type' => 'umum',
                 'ownership' => 'milik',
                 'region_id' => 1,
-                'status' => 'Active',
+                'status' => 'tersedia',
             ],
             [
                 'plate_number' => 'B 9101 GHI',
                 'type' => 'barang',
                 'ownership' => 'sewa',
                 'region_id' => 1,
-                'status' => 'Active',
+                'status' => 'tersedia',
             ],
             [
                 'plate_number' => 'B 1121 JKL',
                 'type' => 'barang',
                 'ownership' => 'milik',
                 'region_id' => 1,
-                'status' => 'Inactive',
+                'status' => 'tersedia',
             ],
         ];
 
